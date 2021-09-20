@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">30574907965-s6hu7vk16tk9kvm4jhg2d6utj53voa6f.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">30574907965</string>
+    <string name="google_api_key" translatable="false">AIzaSyBTiCoqn3E7caEZ1yuG_IfJpZ7ORIF8VzI</string>
+    <string name="google_app_id" translatable="false">1:30574907965:android:108564dcc28adf6a6f1054</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTiCoqn3E7caEZ1yuG_IfJpZ7ORIF8VzI</string>
+    <string name="google_storage_bucket" translatable="false">food-costing-and-inventory.appspot.com</string>
+    <string name="project_id" translatable="false">food-costing-and-inventory</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "30574907965",
+    "project_id": "food-costing-and-inventory",
+    "storage_bucket": "food-costing-and-inventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30574907965:android:108564dcc28adf6a6f1054",
+        "android_client_info": {
+          "package_name": "com.example.foodcosting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30574907965-s6hu7vk16tk9kvm4jhg2d6utj53voa6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTiCoqn3E7caEZ1yuG_IfJpZ7ORIF8VzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30574907965-s6hu7vk16tk9kvm4jhg2d6utj53voa6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
