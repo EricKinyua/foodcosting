@@ -31,6 +31,8 @@ dependencies:
   # Flutter dependencies
   firebase_core: ^1.6.0
   cloud_firestore: ^2.5.3
+  #google fonts
+  google_fonts: ^2.1.0
   
 
 dev_dependencies:

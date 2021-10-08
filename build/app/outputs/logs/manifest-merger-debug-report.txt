@@ -6,6 +6,7 @@ INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\main\AndroidMan
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from C:\Users\USER\Projects\foodcosting\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from [:cloud_firestore] C:\Users\USER\Projects\foodcosting\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:path_provider] C:\Users\USER\Projects\foodcosting\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] C:\Users\USER\Projects\foodcosting\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d4dec2103331f7a1a6a544fb17e4c453\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2d9e9d9454d007cccfe5ca79181866bb\jetified-firebase-analytics-ktx-19.0.1\AndroidManifest.xml:2:1-17:12
@@ -47,8 +48,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\USER\.gradle
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\57c311a7a7a55dc5f53d5491d6fc714b\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\968e7a7691f9eb6bde158a6d730c1b7f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\5d95a9ed516e1b146cedd13d03698632\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d25c534203695d38cb3d330e2a24802a\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\a71afb091154f2a642dd54d0bc94b041\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d25c534203695d38cb3d330e2a24802a\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -166,6 +167,8 @@ INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\main\AndroidMan
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\main\AndroidManifest.xml
 MERGED from [:cloud_firestore] C:\Users\USER\Projects\foodcosting\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\USER\Projects\foodcosting\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\USER\Projects\foodcosting\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\USER\Projects\foodcosting\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\USER\Projects\foodcosting\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\USER\Projects\foodcosting\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d4dec2103331f7a1a6a544fb17e4c453\multidex-2.0.0\AndroidManifest.xml:20:5-43
@@ -248,10 +251,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\968e7a7691f9eb6bde158a6d730c1b7f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\5d95a9ed516e1b146cedd13d03698632\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\5d95a9ed516e1b146cedd13d03698632\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d25c534203695d38cb3d330e2a24802a\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d25c534203695d38cb3d330e2a24802a\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\a71afb091154f2a642dd54d0bc94b041\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\a71afb091154f2a642dd54d0bc94b041\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d25c534203695d38cb3d330e2a24802a\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d25c534203695d38cb3d330e2a24802a\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\USER\Projects\foodcosting\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion

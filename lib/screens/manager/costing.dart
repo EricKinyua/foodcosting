@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:foodcosting/screens/chef/chef.dart';
 import 'package:foodcosting/screens/manager/manager.dart';
 
 class FoodCosting extends StatefulWidget {
@@ -63,6 +64,10 @@ class _FoodCostingState extends State<FoodCosting> {
               },
             ),
           ),
+          TextButton(
+              onPressed: () => Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ChefsScreen())),
+              child: Text('Chefs side')),
           FloatingActionButton(
             heroTag: null,
             onPressed: () => Navigator.push(

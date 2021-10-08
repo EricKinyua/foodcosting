@@ -25,6 +25,7 @@ class AddProduct extends StatelessWidget {
       // print(product.toMap());
       firestore.collection('inventory').doc().set(product.toMap());
     }
+    state.reset();
   }
 
   @override
@@ -43,7 +44,13 @@ class AddProduct extends StatelessWidget {
           child: ListView(
             children: [
               TextFormField(
-                decoration: InputDecoration(hintText: 'Product name'),
+                decoration: InputDecoration(
+                  hintText: 'Product name',
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(width: 1, color: Colors.orange),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                ),
                 onSaved: (String? value) {
                   itemName = value;
                 },
@@ -58,7 +65,13 @@ class AddProduct extends StatelessWidget {
                 height: 10,
               ),
               TextFormField(
-                decoration: InputDecoration(hintText: 'Product price'),
+                decoration: InputDecoration(
+                  hintText: 'Product price',
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(width: 1, color: Colors.orange),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                ),
                 keyboardType: TextInputType.number,
                 onSaved: (String? value) {
                   itemPrice = int.parse(value!);
@@ -74,7 +87,13 @@ class AddProduct extends StatelessWidget {
                 height: 10,
               ),
               TextFormField(
-                decoration: InputDecoration(hintText: 'Product quantity'),
+                decoration: InputDecoration(
+                  hintText: 'Product quantity',
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(width: 1, color: Colors.orange),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                ),
                 keyboardType: TextInputType.number,
                 onSaved: (String? value) {
                   itemQuantity = int.parse(value!);
@@ -90,7 +109,7 @@ class AddProduct extends StatelessWidget {
                 height: 30,
               ),
               MaterialButton(
-                padding: EdgeInsets.symmetric(horizontal: 20),
+                padding: EdgeInsets.symmetric(vertical: 12),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
                 color: Colors.orange,
